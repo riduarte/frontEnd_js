@@ -1,0 +1,100 @@
+/* Estilos generales para la vista del producto */
+body {
+    background-color: #f8f9fa;
+  }
+  
+  /* Card de detalle del producto */
+  .card {
+    width: 100%; 
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card img {
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Estilo para los labels y el texto de detalle */
+  .card-text strong {
+    font-weight: bold;
+  }
+  
+  .card-text .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .card-footer {
+    background: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .card-footer .btn-box {
+    margin-top: 20px;
+  }
+  
+  /* Contenedor de botones en la vista de detalle */
+  .btn-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn-box a {
+    font-size: 1rem;
+  }
+  
+  .btn-box button {
+    font-size: 1rem;
+    background-color: #ff6666;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-box button:hover {
+    background-color: #ff4d4d;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card {
+      width: 100%;
+    }
+  }
+  

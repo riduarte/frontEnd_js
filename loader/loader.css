@@ -1,0 +1,24 @@
+.loader {
+  position: fixed;      /* fijo sobre toda la pantalla */
+  inset: 0;             /* top/right/bottom/left = 0 */
+  background: rgba(255, 255, 255, 0.8); /* fondo blanco semi-transparente */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1050;
+}
+
+.spinner {
+  width: 3rem;
+  height: 3rem;
+  border: 4px solid #ccc;
+  border-top-color: #0dcaf0; /* color de la parte giratoria */
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

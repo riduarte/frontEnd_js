@@ -1,0 +1,58 @@
+{
+  "users": [
+    {
+      "name": "ana ",
+      "username": "example@gmail.com",
+      "password": "$2b$10$vFiWIoaMUpYaCkdUqy4sXeG4FkLgtM7sGvS3vZdJGcPM/hlsBYiyq",
+      "id": 1
+    },
+    {
+      "name": "Richard",
+      "username": "admin@gmail.com",
+      "password": "$2b$10$Tvkc66JJv.seSeEf2xIGKeYyxBPEqWlIaMV3YsSw5r1MNP7DmzHD2",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "name": "fsdf",
+      "description": "sdfs",
+      "price": "34",
+      "type": "venta",
+      "image": "assets/products/placeholder.jpg",
+      "userId": 1,
+      "updatedAt": "2025-08-24T08:37:02.481Z",
+      "id": 1
+    },
+    {
+      "name": "Iphone",
+      "description": "czxcz",
+      "price": "3454",
+      "type": "venta",
+      "image": "assets/products/placeholder.jpg",
+      "userId": 1,
+      "updatedAt": "2025-08-24T08:38:37.802Z",
+      "id": 2
+    },
+    {
+      "name": "fsdf",
+      "description": "fsdf",
+      "price": "44",
+      "type": "venta",
+      "image": "assets/products/placeholder.jpg",
+      "userId": 1,
+      "updatedAt": "2025-08-24T08:40:21.741Z",
+      "id": 3
+    },
+    {
+      "name": "carro",
+      "description": "Poco km",
+      "price": "20000",
+      "type": "venta",
+      "image": "https://picsum.photos/400/300?random=3",
+      "userId": 1,
+      "updatedAt": "2025-08-24T08:45:23.552Z",
+      "id": 4
+    }
+  ]
+}
